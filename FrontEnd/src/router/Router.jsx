@@ -19,6 +19,18 @@ const getProduct = async ({params}) => {
   return product
 }
 
+
+const updateProduct = async ({ params, data }) => {
+  console.log(`Updating product with id ${params.id}`, data);
+  const updateProduct = await productService.updateProduct(params.id, data);
+  return product
+}
+
+const deleteProduct = async ({ params }) => {
+  console.log(`Deleting product with id ${params.id}`);
+  const deleteProduct = await productService.deleteProduct(params.id);
+}
+
 export const router = createBrowserRouter([
     {
         element: <App/>,
