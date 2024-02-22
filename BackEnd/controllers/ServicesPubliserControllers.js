@@ -11,20 +11,13 @@ export const CreateServicesPubliser= async (req, res) => {
     });
     await users.save();
     res.status(200).json({
-        message:"todo muy way ",CreateServicesPubliser
+        message:"Exito",CreateServicesPubliser
     })
     
    } catch (error) {
     console.log(error)
     res.status(500).json({
-        message:"todo mal ",error
+        message:"Error",error
    })
 }
 }
-    // app.get('/api/users',(req,res)=>{
-    //   try {
-    //     const users=
-    //   } catch (error) {
-        
-    //   }
-    // })
