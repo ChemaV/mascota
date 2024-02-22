@@ -1,0 +1,113 @@
+{
+    "products": [
+      {
+        "imagen": "/images/bedcat.png",
+        "nombre": "Cama gato",
+        "descripcion": "Beige aterciopelado",
+        "precio": {"monto":  12, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/bedcat2.png",
+        "nombre": "Cama gatito",
+        "descripcion": "Lavable para mascotas",
+        "precio": {"monto":  9.5, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/beddog.png",
+        "nombre": "Cama perro",
+        "descripcion": "Cómoda y resistente",
+        "precio": {"monto":  14, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/beddog2.png",
+        "nombre": "Cama perro",
+        "descripcion": "Lavable y confortable",
+        "precio": {"monto":  11.75, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/grooming.png",
+        "nombre": "Cepillo",
+        "descripcion": "Suave y resistente",
+        "precio": {"monto":  5, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/grooming2.png",
+        "nombre": "Cepillo grooming",
+        "descripcion": "Madera natural",
+        "precio": {"monto":  7.25, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/grooming3.png",
+        "nombre": "Guante grooming",
+        "descripcion": "Fácil de usar",
+        "precio": {"monto":  4.75, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/grooming4.png",
+        "nombre": "Peine",
+        "descripcion": "Compacto y ergonómico",
+        "precio": {"monto":  6.90, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/leash.png",
+        "nombre": "Correa",
+        "descripcion": "Resistente y ajustable",
+        "precio": {"monto":  8, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/leash2.png",
+        "nombre": "Correa reflectante",
+        "descripcion": "Segura y visible",
+        "precio": {"monto":  10.5, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/leash3.png",
+        "nombre": "Correa ligera",
+        "descripcion": "Fácil de transportar",
+        "precio": {"monto":  7, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/leash4.png",
+        "nombre": "Correa flexible",
+        "descripcion": "Para mayor comodidad",
+        "precio": {"monto":  9.25, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_cat.png",
+        "nombre": "Juguete gato",
+        "descripcion": "Divertido y entretenido",
+        "precio": {"monto":  3.99, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_cat2.png",
+        "nombre": "Juguete interactivo",
+        "descripcion": "Para estimular el juego",
+        "precio": {"monto":  6.75, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_cat3.png",
+        "nombre": "Pelota suave",
+        "descripcion": "Para horas de diversión",
+        "precio": {"monto":  4.25, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_cat4.png",
+        "nombre": "Ratón de peluche",
+        "descripcion": "Para gatos curiosos",
+        "precio": {"monto":  5.60, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_dog.png",
+        "nombre": "Pelota resistente",
+        "descripcion": "Para perros activos",
+        "precio": {"monto":  7.20, "moneda": "€"}
+      },
+      {
+        "imagen": "/images/toy_dog2.png",
+        "nombre": "Hueso interactivo",
+        "descripcion": "Para juego y limpieza dental",
+        "precio": {"monto":  8.99, "moneda": "€"}
+      }
+   
+    ]
+  }
