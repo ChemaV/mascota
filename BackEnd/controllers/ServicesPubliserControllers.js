@@ -1,9 +1,9 @@
-import UsersModels from "../models/ServicesPubliserModels.js";
-export const CreateUsers= async (req, res) => {
+import ServicesPubliserModels from "../models/ServicesPubliserModels";
+export const CreateServicesPubliser= async (req, res) => {
     const { name, lastname, email, password } = req.body;
     console.log('Datos recibidos:', { name, lastname, email, password });
   
-   try { const users = new UsersModels ( {
+   try { const CreateServicesPubliser = new ServicesPubliserModels ( {
       name,
       lastname,
       email,
@@ -11,7 +11,7 @@ export const CreateUsers= async (req, res) => {
     });
     await users.save();
     res.status(200).json({
-        message:"todo muy way ",users
+        message:"todo muy way ",CreateServicesPubliser
     })
     
    } catch (error) {
