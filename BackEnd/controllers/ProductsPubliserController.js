@@ -3,7 +3,7 @@ export const CreateProductsPubliser= async (req, res) => {
     const { name, company, email, tlf, address, description, password, check_box, } = req.body;
     console.log('Datos recibidos:', { name, company, email, tlf, address, description, password, check_box, });
   
-   try { const ProductsPubliser = new ProductsPubliserModels ( {
+   try { const CreateProductsPubliser = new ProductsPubliserModels ( {
     name,
     company,
     email,
@@ -15,7 +15,7 @@ export const CreateProductsPubliser= async (req, res) => {
     });
     await ProductsPubliser.save();
     res.status(200).json({
-        message:"todo muy way ",ProductsPubliser 
+        message:"todo muy way ",CreateProductsPubliser 
     })
     
    } catch (error) {
