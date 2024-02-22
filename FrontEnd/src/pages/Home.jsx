@@ -3,11 +3,9 @@ import imgServices from "./images/imgServices.png";
 import imgProducts from "./images/imgProducts.png";
 import { useNavigate } from 'react-router-dom';
 
-
 function Home() {
-  
   const navigate = useNavigate();
-  
+
   const goToProducts = () => {
     navigate("/home/products");
   }
@@ -19,19 +17,19 @@ function Home() {
   return (
     <div className="bodyhome">
       <section className="homeHeader">
-        <img src={header} alt="header"></img>
+        <img src={header} alt="header" className="w-full object-cover" />
       </section>
       <section className="homeServices">
-        <img src={imgServices} alt="services"></img>
+        <img src={imgServices} alt="services" className="w-full object-cover" />
         <article className="infoServices">
           <h2 className="title2Home">nuestros servicios</h2>
           <p className="textbody">
             Seded do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.{" "}
+            nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="buttonbox">
-            <button onClick={goToServices}>cuéntame más</button>
+            <button onClick={goToServices} className="bg-blue-500 text-white px-4 py-2 rounded">cuéntame más</button>
           </div>
         </article>
       </section>
@@ -41,13 +39,13 @@ function Home() {
           <p className="textbody">
             Seded do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.{" "}
+            nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="buttonbox">
-            <button onClick={goToProducts}>cuéntame más</button>
+            <button onClick={goToProducts} className="bg-blue-500 text-white px-4 py-2 rounded">cuéntame más</button>
           </div>
         </article>
-        <img src={imgProducts} alt="products"></img>
+        <img src={imgProducts} alt="products" className="w-full object-cover" />
       </section>
     </div>
   );

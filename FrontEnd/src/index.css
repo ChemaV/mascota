@@ -4,13 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
 footer {
-    width: 1280px;
+    width: auto;
 }
 
 .bodyhome {
     background-color: #FDFCF7;
-    width: 1280px;
+    width: auto;
     font-family: "Inria Sans", sans-serif;
     color: #5C4B51;
 
