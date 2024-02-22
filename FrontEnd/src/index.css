@@ -1,0 +1,62 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.bodyhome {
+    background-color: #FDFCF7;
+    width: 1280px;
+    font-family: "Inria Sans", sans-serif;
+    color: #5C4B51;
+
+}
+
+.homeServices {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoServices {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 94px;
+    margin-right: 124px;
+    align-self: center;
+
+}
+
+.homeProducts {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 94px;
+    margin-right: 124px;
+    align-self: center;
+}
+
+.title2Home {
+    font-size: 45px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.textbody {
+    font-size: 15px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.buttonbox {
+    background-color: #EE6163;
+    width: 150px;
+    border-radius: 25px; 
+    height: 39px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}

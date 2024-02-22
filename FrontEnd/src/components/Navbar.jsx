@@ -1,7 +1,25 @@
+<<<<<<< HEAD
 // Import necessary dependencies
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // If you are using React Router
 import kotaGreen from "../assets/kotaGreen.svg"
+||||||| 7a03bbc
+const Navbar = () => {
+  return (
+    <div>Navbar</div>
+  )
+}
+=======
+const Navbar = () => {
+  return (
+    <div>
+
+
+      
+    </div>
+  )
+}
+>>>>>>> origin/dev
 
 // Functional component for the Navbar
 const Navbar = () => {
