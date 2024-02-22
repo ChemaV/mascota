@@ -1,7 +1,19 @@
-const ProductCard = () => {
-  return (
-    <div>ProductCard</div>
-  )
-}
+import React from 'react';
 
-export default ProductCard
+
+const ProductCard = () => {
+
+    return (
+        <div>
+          <image></image>
+          <p></p>
+          <hr/>
+          <p></p>
+          <button></button>
+        </div>
+    );
+};
+
+
+export default ProductCard;
+
