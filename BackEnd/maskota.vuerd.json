@@ -3,15 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-<<<<<<< HEAD
     "scrollTop": 0,
     "scrollLeft": 0,
     "zoomLevel": 0.9,
-=======
-    "scrollTop": -511.80129006589266,
-    "scrollLeft": -551.9067843221837,
-    "zoomLevel": 0.4,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -143,48 +137,15 @@
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
-<<<<<<< HEAD
             },
             "id": "3287c893-0a33-4a7d-8ee0-2c225144db88"
-=======
-            }
-          },
-          {
-            "id": "14134b5b-6eda-4687-9f1f-e3733b1e5232",
-            "name": "tlf",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            }
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           }
         ],
         "ui": {
           "active": false,
-<<<<<<< HEAD
           "left": 0,
           "top": 83.3334,
           "zIndex": 467,
-=======
-          "left": 6.6668,
-          "top": 34.9997,
-          "zIndex": 1,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "widthName": 60,
           "widthComment": 60
         },
@@ -582,17 +543,10 @@
         ],
         "ui": {
           "active": false,
-<<<<<<< HEAD
           "left": 615.9999,
           "top": 723.3334,
           "zIndex": 469,
           "widthName": 100.998046875,
-=======
-          "left": 896.7493,
-          "top": 393.8356,
-          "zIndex": 4,
-          "widthName": 97.38623046875,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "widthComment": 60
         },
         "visible": true
@@ -835,17 +789,10 @@
         ],
         "ui": {
           "active": false,
-<<<<<<< HEAD
           "left": 955.6666,
           "top": 29.3334,
           "zIndex": 468,
           "widthName": 98.814453125,
-=======
-          "left": 1133.3322,
-          "top": 64.0829,
-          "zIndex": 3,
-          "widthName": 95.20263671875,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "widthComment": 60
         },
         "visible": true
@@ -1415,13 +1362,8 @@
           "columnIds": [
             "ab767c85-503a-4d01-b93c-131e191cac81"
           ],
-<<<<<<< HEAD
           "x": 615.9999,
           "y": 819.3334,
-=======
-          "x": 896.7493,
-          "y": 520.5856,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "direction": "left"
         },
         "end": {
@@ -1446,13 +1388,8 @@
           "columnIds": [
             "7017d045-285b-4717-951f-70d54061849b"
           ],
-<<<<<<< HEAD
           "x": 398.6005859375,
           "y": 158.83339999999998,
-=======
-          "x": 405.2673859375,
-          "y": 120.74969999999999,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "direction": "right"
         },
         "end": {
@@ -1477,13 +1414,8 @@
           "columnIds": [
             "9290fb2f-3cf6-4ddf-8e66-ecb082f96d9e"
           ],
-<<<<<<< HEAD
           "x": 955.6666,
           "y": 145.8334,
-=======
-          "x": 1133.3322,
-          "y": 201.0829,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "direction": "left"
         },
         "end": {
@@ -1508,13 +1440,8 @@
           "columnIds": [
             "ab767c85-503a-4d01-b93c-131e191cac81"
           ],
-<<<<<<< HEAD
           "x": 815.30019296875,
           "y": 723.3334,
-=======
-          "x": 1098.48318671875,
-          "y": 393.8356,
->>>>>>> cd9e6cc80775fdf7e259ec48ae849a41be1cb7cd
           "direction": "top"
         },
         "end": {
