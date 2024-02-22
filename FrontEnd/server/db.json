@@ -1,0 +1,21 @@
+{"usuarios": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "message": "Hola, ¿este producto es talla única?"
+    },
+    {
+      "id": 2,
+      "name": "María García",
+      "email": "maria@example.com",
+      "message": "Me gustaría más información sobre el producto."
+    },
+    {
+      "id": 3,
+      "name": "Carlos López",
+      "email": "carlos@example.com",
+      "message": "Me interesa el producto. Llámeme después de las 17:00, por favor, al 658236512"
+    }
+   
+  ]}
