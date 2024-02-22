@@ -10,6 +10,7 @@ export default {
         // Add your custom colors here
         'custom-brown': '#5C4B51',
         'custom-red': '#EE6163',
+        'custom-white': '#FDFCF7',
       }
     },
   },

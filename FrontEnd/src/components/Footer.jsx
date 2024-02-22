@@ -7,7 +7,7 @@ const Footer = () => {
       <div>
         <div className="bg-custom-brown text-white p-4 h-28 flex justify-between"> 
             <img src={kotaWhite} alt="logo" className="ml-14"/>
-            <div className=" mr-14">
+            <div className=" mr-36">
               <p className="text-white underline p-1 text-xl">politica de privacidad</p>
               <p className="text-white underline p-1 text-xl">aviso legal</p>
             </div>
