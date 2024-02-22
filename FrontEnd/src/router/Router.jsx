@@ -8,6 +8,7 @@ import ServiceDetail from "../pages/ServiceDetail"
 import serviceService from "../services/productService"
 import productService from "../services/productService"
 import '../index.css'
+import Contact from "../forms/Contact"
 
 const getProducts = async () => {
   const products = await productService.getProducts();
@@ -46,7 +47,7 @@ export const router = createBrowserRouter([
         element: <App/>,
         children: [
           {
-            path: "/home/",
+            path: "/home",
             element: <Home/>,
           },
           {
@@ -68,7 +69,12 @@ export const router = createBrowserRouter([
             path: "home/serviceDetail/:id",
             element: <ServiceDetail/>,
             //loader: getService
+          },
+          {
+            path: "home/Contact",
+            element: <Contact/>,
           }
+            
         ]
     },
 ])

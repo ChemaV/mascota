@@ -17,10 +17,6 @@ function Contact() {
         <>
             <section className='logoandlogin'>
                 <div>
-                    <img className='logo' src={logo} alt="logo"></img>
-                </div>
-
-                <div>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className='label'>
                             <label htmlFor='username'>
@@ -31,14 +27,13 @@ function Contact() {
                             <label htmlFor='email'>
                                 <input id='email' {...register('email')} required type='email' placeholder='Email:' />
                             </label>
+                        </div>   
                         <div className='label'>
                             <label htmlFor='message'>
-                                <input id='message' {...register('message')} required type='message' placeholder='Tu mensaje:' />
+                                <textarea id='message' {...register('message')} required type='text' placeholder='Tu mensaje:' />
                             </label>
-                        </div>    
-
-                    
-                        </div>
+                        </div>                     
+                </div>
                         <button className='access' type="submit">ACCEDER</button>
                     </form>
                 </div>
