@@ -1,13 +1,13 @@
-import UsersModels from "../models/ContactModels.js";
+import UsersModels from "../models/ServicesPubliserModels.js";
 export const CreateUsers= async (req, res) => {
     const { name, lastname, email, password } = req.body;
     console.log('Datos recibidos:', { name, lastname, email, password });
   
    try { const users = new UsersModels ( {
       name,
+      lastname,
       email,
-      message,
-      check_box,
+      password,
     });
     await users.save();
     res.status(200).json({
