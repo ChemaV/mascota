@@ -5,7 +5,7 @@ import Products from "../pages/Products"
 import ProductDetail from "../pages/ProductDetail"
 import Services from "../pages/Services"
 import ServiceDetail from "../pages/ServiceDetail"
-import productService from "../services/productService"
+import serviceService from "../services/productService"
 import '../index.css'
 
 const getProducts = async () => {
@@ -14,22 +14,31 @@ const getProducts = async () => {
 }
 
 const getProduct = async ({params}) => {
-  console.log(params.id)
   const product = await productService.getProduct(params.id);
   return product
 }
 
-
-const updateProduct = async ({ params, data }) => {
-  console.log(`Updating product with id ${params.id}`, data);
-  const updateProduct = await productService.updateProduct(params.id, data);
-  return product
+const getServices = async () => {
+  const services = await serviceService.getServices();
+  return services;
 }
 
-const deleteProduct = async ({ params }) => {
-  console.log(`Deleting product with id ${params.id}`);
-  const deleteProduct = await productService.deleteProduct(params.id);
+const getService = async ({params}) => {
+  const service = await serviceService.getServices(params.id);
+  return service
 }
+
+
+// const updateProduct = async ({ params, data }) => {
+//   console.log(`Updating product with id ${params.id}`, data);
+//   const updateProduct = await productService.updateProduct(params.id, data);
+//   return product
+// }
+
+// const deleteProduct = async ({ params }) => {
+//   console.log(`Deleting product with id ${params.id}`);
+//   const deleteProduct = await productService.deleteProduct(params.id);
+// }
 
 export const router = createBrowserRouter([
     {
@@ -42,23 +51,23 @@ export const router = createBrowserRouter([
           {
             path: "home/products",
             element: <Products/>,
-            loader: getProjects
+            loader: getProducts
           },
           {
             path: "home/productDetail/:id",
             element: <ProductDetail/>,
-            loader: getProject
+            loader: getProduct
           },
           {
             path: "home/services",
             element: <Services/>,
-            loader: getProjects
+            loader: getServices
           },
           {
             path: "home/servicesDetail/:id",
             element: <ServiceDetail/>,
-            loader: getProjects
-          },
+            loader: getService
+          }
         ]
     },
 ])
