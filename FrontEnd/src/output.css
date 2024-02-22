@@ -548,8 +548,20 @@ video {
   margin-left: 3.5rem;
 }
 
-.mr-14 {
-  margin-right: 3.5rem;
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-36 {
+  margin-right: 9rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -560,12 +572,12 @@ video {
   height: 7rem;
 }
 
-.h-9 {
-  height: 2.25rem;
+.h-52 {
+  height: 13rem;
 }
 
-.flex-row {
-  flex-direction: row;
+.h-9 {
+  height: 2.25rem;
 }
 
 .justify-between {
@@ -586,6 +598,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -601,11 +617,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-white {
