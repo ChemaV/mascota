@@ -1,35 +1,29 @@
-import { useEffect, useState } from 'react'
 import ProductCard from "../components/ProductCard"
-import productService from '../services/productService'
+import { useRouteLoaderData } from 'react-router-dom'
 
+
+// const Products = () => {
+
+// const products = useRouteLoaderData()
+// console.log(products)
+
+//     return (
+//        <>     
+//             <div>
+//                 {products.map((product) => (
+//                 <ProductCard product={product} key={product.id}/>
+//                 ))}
+//             </div>       
+//         </>
+//     )
+    
+// }
 
 const Products = () => {
-
-    const [products, setProducts] = useState([]);
-
-const getProducts = async() => {
-              const products = await productService.getProducts()
-              setProducts(products)
-         };
-
-useEffect(() => {
-    getProducts()
-},[]);
-
-    return (
-       <>
-        
-            <div>
-                {products.map((product) => (
-                <ProductCard product={product} key={product.id}/>
-                ))}
-            </div>
-         
-        </>
-    )
-    
+  return (
+    <div>Products</div>
+  )
 }
 
 export default Products
-
 

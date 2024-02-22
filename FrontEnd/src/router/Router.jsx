@@ -52,22 +52,22 @@ export const router = createBrowserRouter([
           {
             path: "home/products",
             element: <Products/>,
-            loader: getProducts
+            // loader: getProducts
           },
           {
             path: "home/productDetail/:id",
             element: <ProductDetail/>,
-            loader: getProduct
+            //loader: getProduct
           },
           {
             path: "home/services",
             element: <Services/>,
-            loader: getServices
+            //loader: getServices
           },
           {
-            path: "home/servicesDetail/:id",
+            path: "home/serviceDetail/:id",
             element: <ServiceDetail/>,
-            loader: getService
+            //loader: getService
           }
         ]
     },
