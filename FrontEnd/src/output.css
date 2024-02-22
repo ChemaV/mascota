@@ -543,3 +543,25 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bodyhome {
+  background-color: #FDFCF7;
+  width: 1280px;
+  font-family: "Inria Sans", sans-serif;
+}
+
+.homeServices {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoServices {
+  margin-left: 94px;
+  margin-right: 124px;
+  align-self: center;
+}
+
+.homeProducts {
+  display: flex;
+  flex-direction: row;
+}
