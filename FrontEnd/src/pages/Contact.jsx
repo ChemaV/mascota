@@ -1,6 +1,6 @@
 import React from 'react'
 import {useForm} from 'react-hook-form'
-import {postData} from '../../src/services/productService'
+import { postData } from '../services/productService'
 import { useNavigate} from 'react-router-dom'
 
 const Contact = () => {   //definimos el componente Create como una función
@@ -8,7 +8,11 @@ const Contact = () => {   //definimos el componente Create como una función
   const { handleSubmit, register, errors} = useForm()
 
   const users = (data) =>{  // definimos la función users
+    data.message = message;
+    postData(data)
     
+    navigate('/')
+
   }
   return (
    
@@ -21,7 +25,6 @@ const Contact = () => {   //definimos el componente Create como una función
         <label htmlFor="message">Mensaje:</label>
         <textarea rows="6"  maxLength="300" {...register("comentario")} 
         required style={{resize: "none"}}/>    
-
         <button type='submit'>Enviar</button>
     </form>
 );

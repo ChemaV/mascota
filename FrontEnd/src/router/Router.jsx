@@ -8,7 +8,7 @@ import ServiceDetail from "../pages/ServiceDetail"
 import serviceService from "../services/productService"
 import productService from "../services/productService"
 import '../index.css'
-import Contact from "../forms/Contact"
+import Contact from "../pages/Contact"
 
 const getProducts = async () => {
   const products = await productService.getProducts();

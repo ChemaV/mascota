@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 
 const API_URL = 'http://localhost:3000/products'
 
@@ -44,6 +45,19 @@ const productService = {
         }  
     }
 }
+
+const postData = async (data) => {
+    const navigate = useNavigate(); // Usar hook useNavigate para obtener la función de navegación
+
+    try {
+        await axios.post('http://localhost:3000/usuarios', data);
+        alert("Mensaje enviado exitosamente");
+        navigate('/'); // Navegar de vuelta a la página de inicio
+    } catch (error) {
+        console.error('Error al enviar datos:', error);
+        // Manejar el error según sea necesario
+    }
+};
 
 export default productService
 
