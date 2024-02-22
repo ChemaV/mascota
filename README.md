@@ -14,7 +14,7 @@ Welcome to +Kota Marketplace!
 
 ## Installations instructions
 
-### For Front End:
+### For FrontEnd:
 
 Package Json 
 
@@ -28,7 +28,7 @@ npm create vite@latest
 
 
 
-### For Back End:
+### For BackEnd:
 
 npm init -y
 
