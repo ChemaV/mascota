@@ -1,5 +1,5 @@
-import ProductCard from "../components/ProductCard"
-import { useRouteLoaderData } from 'react-router-dom'
+// import ProductCard from "../components/ProductCard"
+// import { useRouteLoaderData } from 'react-router-dom'
 
 
 // const Products = () => {
