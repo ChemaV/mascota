@@ -1,0 +1,97 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px; 
+  }
+  
+  .product-details {
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  
+  .product-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5C4B51;
+    margin-bottom: 5px;
+  }
+  
+  .product-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #5C4B51;
+    margin-bottom: 10px; 
+  }
+  
+  .price-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+  }
+  
+  .price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #5C4B51;
+    margin-right: 10px; 
+  }
+  
+  .add-to-cart {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-to-cart-button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2B469;
+    color: #5C4B51;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #EE6163;
+  }
+  
+  .like-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+  }
+  
+  .like-button:hover .heart-icon {
+    fill: #EE6163;
+  }
+  
+  #heart-icon {
+    width: 30px;
+    height: 40px;
+    fill: #5C4B51;
+  }

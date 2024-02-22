@@ -1,29 +1,13 @@
-// import ProductCard from "../components/ProductCard"
-// import { useRouteLoaderData } from 'react-router-dom'
-
-
-// const Products = () => {
-
-// const products = useRouteLoaderData()
-// console.log(products)
-
-//     return (
-//        <>     
-//             <div>
-//                 {products.map((product) => (
-//                 <ProductCard product={product} key={product.id}/>
-//                 ))}
-//             </div>       
-//         </>
-//     )
-    
-// }
+import ProductCard from "../components/ProductCard/ProductCard.jsx";
 
 const Products = () => {
   return (
-    <div>Products</div>
-  )
-}
+    <section className="flex min-h-screen items-start justify-center md:justify-between p-0">
+      <div style={{ marginTop: '60px', marginBottom: '60px' }}>
+        <ProductCard />
+      </div>
+    </section>
+  );
+};
 
-export default Products
-
+export default Products;
