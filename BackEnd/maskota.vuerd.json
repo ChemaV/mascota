@@ -4,8 +4,8 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -539,
-    "zoomLevel": 1,
+    "scrollLeft": 0,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -137,36 +137,13 @@
               "widthDefault": 60
             },
             "id": "3287c893-0a33-4a7d-8ee0-2c225144db88"
-          },
-          {
-            "name": "check-box",
-            "comment": "",
-            "dataType": "TINYINT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 61.2490234375,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "013a9eb7-3857-4778-9dc2-d08cb890dd36"
           }
         ],
         "ui": {
           "active": false,
           "left": 0,
           "top": 83.3334,
-          "zIndex": 460,
+          "zIndex": 467,
           "widthName": 60,
           "widthComment": 60
         },
@@ -472,9 +449,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 483.9999,
-          "top": 742.3334,
-          "zIndex": 453,
+          "left": 615.9999,
+          "top": 723.3334,
+          "zIndex": 469,
           "widthName": 100.998046875,
           "widthComment": 60
         },
@@ -672,9 +649,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 874.6666,
-          "top": 42.3334,
-          "zIndex": 427,
+          "left": 955.6666,
+          "top": 29.3334,
+          "zIndex": 468,
           "widthName": 98.814453125,
           "widthComment": 60
         },
@@ -829,8 +806,8 @@
           "columnIds": [
             "ab767c85-503a-4d01-b93c-131e191cac81"
           ],
-          "x": 483.9999,
-          "y": 838.3334,
+          "x": 615.9999,
+          "y": 819.3334,
           "direction": "left"
         },
         "end": {
@@ -855,8 +832,8 @@
           "columnIds": [
             "7017d045-285b-4717-951f-70d54061849b"
           ],
-          "x": 399.849609375,
-          "y": 169.08339999999998,
+          "x": 398.6005859375,
+          "y": 158.83339999999998,
           "direction": "right"
         },
         "end": {
@@ -881,8 +858,8 @@
           "columnIds": [
             "9290fb2f-3cf6-4ddf-8e66-ecb082f96d9e"
           ],
-          "x": 874.6666,
-          "y": 158.83339999999998,
+          "x": 955.6666,
+          "y": 145.8334,
           "direction": "left"
         },
         "end": {
@@ -907,8 +884,8 @@
           "columnIds": [
             "ab767c85-503a-4d01-b93c-131e191cac81"
           ],
-          "x": 683.30019296875,
-          "y": 742.3334,
+          "x": 815.30019296875,
+          "y": 723.3334,
           "direction": "top"
         },
         "end": {
