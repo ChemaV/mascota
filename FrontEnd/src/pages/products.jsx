@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Product from "../components/ProductCard"
+import ProductCard from "../components/ProductCard"
 import productService from '../services/productService'
 
 
@@ -19,11 +19,11 @@ useEffect(() => {
     return (
        <>
         
-            <ul>
-                {projects.map((project) => (
-                <Product product={product} key={product.id}/>
+            <div>
+                {products.map((product) => (
+                <ProductCard product={product} key={product.id}/>
                 ))}
-            </ul>
+            </div>
          
         </>
     )
